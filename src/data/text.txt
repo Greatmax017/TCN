@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/Mighty-Sky/bgj714jqhaq7hfbxoxxn" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Mighty Sky Technologies Limited | IT Services & Solutions</title>
+    <meta name="title" content="Mighty Sky Technologies Limited | IT Services & Solutions">
+    <meta name="description" content="Welcome to Mighty Sky Technologies Limited, where innovation meets reliability in delivering top-notch IT services and solutions. Based in the UK, we pride ourselves on helping businesses of all sizes harness the power of technology to transform their operations, drive growth, and stay ahead in a competitive landscape." />
+    <meta name="keywords" content="IT services, managed IT support, cloud solutions, cybersecurity services, IT infrastructure, digital transformation, disaster recovery, IT consultancy, UK technology company" />
+    <meta name="author" content="Mighty Sky Technologies Limited" />
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mightskytech.com/" /> <!-- Replace with your actual URL -->
+    <meta property="og:title" content="Mighty Sky Technologies Limited | IT Services & Solutions" />
+    <meta property="og:description" content="Welcome to Mighty Sky Technologies Limited, where innovation meets reliability in delivering top-notch IT services and solutions. Based in the UK, we pride ourselves on helping businesses of all sizes harness the power of technology." />
+    <meta property="og:image" content="https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/Mighty-Sky/bgj714jqhaq7hfbxoxxn" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://mightskytech.com/" /> <!-- Replace with your actual URL -->
+    <meta property="twitter:title" content="Mighty Sky Technologies Limited | IT Services & Solutions" />
+    <meta property="twitter:description" content="Welcome to Mighty Sky Technologies Limited, where innovation meets reliability in delivering top-notch IT services and solutions. Based in the UK, we pride ourselves on helping businesses of all sizes harness the power of technology." />
+    <meta property="twitter:image" content="https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/Mighty-Sky/bgj714jqhaq7hfbxoxxn" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mightskytech.com/" /> <!-- Replace with your actual URL -->
+    
+    <!-- Additional Meta Tags -->
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    
+    <!-- Schema.org markup for Google+ -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Mighty Sky Technologies Limited",
+        "description": "Welcome to Mighty Sky Technologies Limited, where innovation meets reliability in delivering top-notch IT services and solutions.",
+        "image": "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/Mighty-Sky/bgj714jqhaq7hfbxoxxn",
+        "url": "https://mightskytech.com/",
+        "sameAs": [
+          "https://facebook.com/mightskytech",
+          "https://twitter.com/mightskytech",
+          "https://linkedin.com/company/mightskytech"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "UK"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+44-XXX-XXXX-XXX",
+          "contactType": "customer service"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
