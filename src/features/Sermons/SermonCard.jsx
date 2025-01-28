@@ -48,7 +48,7 @@ function SermonCard({ title, image, date, content, author }) {
   return (
     <VStack
         w="full"
-        justify="start"
+        justify="space-between"
         align="start"
         minH="432px"
         bgColor="white"
@@ -59,12 +59,14 @@ function SermonCard({ title, image, date, content, author }) {
         cursor="pointer"
         role="group"
         boxShadow="0 0 8px rgba(0,0,0,0.4)"
+        spacing={0}
     >
         <VStack
             w="full"
             h="220px"
             justify="center"
             align="center"
+            flexShrink={0} 
         >
             <Image
                 src={image}
@@ -80,11 +82,11 @@ function SermonCard({ title, image, date, content, author }) {
         </VStack>
 
         <VStack
-         w="full"
-         justify="start"
-         align="start"
-         p="20px"
-         gap="20px"
+            w="full"
+            justify="space-between" 
+            align="start"
+            p="20px"
+            flexGrow={1}
         >
             <HStack
              w="full"
@@ -139,6 +141,7 @@ function SermonCard({ title, image, date, content, author }) {
                     fontWeight={500}
                     color="brand.900"
                     lineHeight="24px"
+                    noOfLines={3} 
                 >
                     {content?.slice(0, 100)}...
                 </Text>
