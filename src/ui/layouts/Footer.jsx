@@ -58,11 +58,11 @@ function Footer() {
           >
                 <Link to="/">
                     <Image
-                     src="https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/kitgock9m6mojkyqjhar"
-                     alt="tcn-logo"
-                     w="full"
-                     h="full"
-                     bgColor="white"
+                     src="https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/b8rnymx5vt0j1mpdp5ly"
+                     alt="tcn-toronto-logo"
+                     w="100px"
+                     h="100px"
+                     objectFit="contain"
                     />
                 </Link>
 

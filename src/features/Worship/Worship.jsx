@@ -161,6 +161,7 @@ function Worship() {
                              bgPos="center"
                              position="relative"
                              overflow="hidden"
+                             cursor="pointer"
                              _before={{
                                content: "''",
                                position: "absolute",
@@ -170,6 +171,7 @@ function Worship() {
                                bgColor: "rgba(0,0,0,0.7)",
                                zIndex: 1
                              }}
+                             onClick={() => setService(item)}
                             >
                                 <VStack
                                     w="full"

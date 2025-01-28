@@ -7,7 +7,7 @@ function ContactUsPage() {
   return (
     <>
      <HeroInner
-      image="https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/qnf3yct6ie07sxfsn7xm"
+      image="https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/nc13mlkxysbmhehuqsfu"
       title="Contact Us"
      />
      <Contact/>

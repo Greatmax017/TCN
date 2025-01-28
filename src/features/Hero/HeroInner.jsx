@@ -39,6 +39,7 @@ function HeroInner({ image, subtitle, title }) {
       bgSize="cover"
       bgRepeat="no-repeat"
       bgPos="center"
+      bgAttachment="fixed"
       position="relative"
       _before={{
         content: "''",

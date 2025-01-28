@@ -62,13 +62,13 @@ export const WorshipData = [
     {
         title: "Youth Section",
         content: "Empowering the next generation with a strong foundation in Christ through vibrant worship, engaging teachings, and community activities designed for growth and purpose.",
-        image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/hdy1dwqottdnbr9wfhlj",
+        image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/h6cswo5x7cqmghbewuwl",
     },
 
     {
         title: "Children Section",
         content: "Nurturing young hearts with the love of Christ through fun, interactive, and Bible-centered programs that inspire faith and character development.",
-        image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/fcxecxrskvmgwkpt89g4"
+        image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/lm3vxk0xle7evf7r3mhw"
     },
 
     {
@@ -80,13 +80,13 @@ export const WorshipData = [
     {
         title: "Women Section",
         content: "Inspiring women to grow in their faith, discover their God-given purpose, and build meaningful connections within a supportive community.",
-        image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/icnwmdtb5v6kzn6ewqda",
+        image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/lijxn1tiyzhpaobxyzhj",
     },
 
     {
         title: "Sunday School Section",
         content: "Teaching the Word of God in a way that’s relatable and impactful, helping individuals of all ages grow spiritually and build a solid faith foundation.",
-        image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/lvgibkch5t2sunbqony9",
+        image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/fn6gajqdhvdojczb2t1e",
     },
 ];
 

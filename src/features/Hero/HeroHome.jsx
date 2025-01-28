@@ -47,21 +47,21 @@ const sliders = [
         title: "Welcome to The Covenation Nation (TCN) Church",
         content: "A Church Without Walls, Transforming Lives Through Christ.",
         detail: "Since 1994, The Covenant Nation has been dedicated to fostering a personal relationship with Christ, teaching practical insights to grow in faith, and making a difference in the world.",
-        image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/r5f77cgzuboxzq8znv8k",
+        image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/mwjulgua35xn54kkhu2l",
     },
 
     {
         title: "Discover a Deeper Connection",
         content: "Communion with Christ Through the Word.",
         detail: "At TCN Church, we place strong emphasis on engaging with the Bible, gaining practical insights to thrive in daily life, and sharing the transformative love of Christ with others.",
-        image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/pqr43yg82oomxadnklgs",
+        image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/g5yrxiafzocenkggjwu7",
     },
 
     {
         title: "Join Us in the Journey",
         content: "Experience Faith, Community, and Purpose.",
         detail: "Be part of a growing family where lives are transformed through inspiring worship, impactful teachings, and meaningful connections. Together, let’s make an eternal impact.",
-        image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/jpm49gv0tlc8egsyaav1",
+        image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/kwqyznrzd6dgggqkyxdo",
     },
 ];
 

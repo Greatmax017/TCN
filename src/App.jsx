@@ -9,8 +9,10 @@ import PageLayout from "./ui/layouts/PageLayout";
 import ScrollToTop from "./ui/ScrollTop";
 import ContactUsPage from "./pages/ContactUs";
 import AboutUsPage from "./pages/AboutUs";
+import SermonsPage from "./pages/Sermons";
+import EventsPage from "./pages/Events";
+import GalleryPage from "./pages/Gallery";
 // import ServicesPage from "./pages/Services";
-// import BlogPage from "./pages/Blog";
 // import ServiceDetailPage from "./pages/ServiceDetail";
 
 
@@ -28,6 +30,9 @@ function App() {
           <Route element={<PageLayout />}>
             <Route path="/" element={<HomePage/>}/>
             <Route path="/about-us" element={<AboutUsPage/>}/>
+            <Route path="/sermons" element={<SermonsPage/>}/>
+            <Route path="/events" element={<EventsPage/>}/>
+            <Route path="/gallery" element={<GalleryPage/>}/>
             {/* <Route path="/services" element={<ServicesPage/>}/> */}
             {/* <Route path="/services/service-detail/:slug" element={<ServiceDetailPage/>}/> */}
             {/* <Route path="/blog" element={<BlogPage/>}/> */}

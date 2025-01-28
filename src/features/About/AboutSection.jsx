@@ -73,7 +73,7 @@ function AboutSection() {
                     <Image
                         w="full"
                         h="500px"
-                        src="https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/ycapcq8rqth49iu1vpk0"
+                        src="https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/qkzs8uasuwinum7iefps"
                         alt="about-image"
                         objectFit="cover"
                         rounded="initial"
@@ -84,6 +84,7 @@ function AboutSection() {
                         borderColor="white"
                         zIndex={20}
                     />
+                    
 
                     <VStack
                      w="400px"
@@ -106,7 +107,7 @@ function AboutSection() {
                     <Image
                         w="full"
                         h="500px"
-                        src="https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/mq90ir2ph6x0iyxi7psd"
+                        src="https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/fzetmsqow8rheww8nggf"
                         alt="about-image"
                         objectFit="cover"
                         loading="lazy"

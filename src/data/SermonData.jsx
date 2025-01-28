@@ -1,20 +1,20 @@
 export const sermonsData = [
   {
-    image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/w0kmujilvqbbdjodnosk",
+    image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/rvjcnqnzzq2b1mlbsgll",
     title: "Walking in Faith Through Challenges",
     author: "Pastor 'Poju Oyemade",
     content: "Discover how to remain steadfast in faith during life's storms and challenges.",
     date: "2025-01-29",
   },
   {
-    image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/w0kmujilvqbbdjodnosk",
+    image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/mesoswp7ap4imj1jojov",
     title: "The Power of Communion with Christ",
     author: "Pastor 'Poju Oyemade",
     content: "Learn the importance of a personal relationship with Christ and how it transforms your life.",
     date: "2025-01-29",
   },
   {
-    image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/w0kmujilvqbbdjodnosk",
+    image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/nwvr3ds0mxwzomnwj1mo",
     title: "Practical Christian Living",
     author: "Guest Speaker: Rev. John Doe",
     content: "Explore actionable insights to integrate faith into your daily life and make an impact.",
@@ -28,7 +28,7 @@ export const sermonsData = [
     date: "2025-01-29",
   },
   {
-    image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/w0kmujilvqbbdjodnosk",
+    image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/g1e5pmtgbvhzeq6ssjhn",
     title: "Living as a Light in the World",
     author: "Pastor 'Poju Oyemade",
     content: "Be inspired to live as a beacon of hope and faith, impacting your community positively.",
