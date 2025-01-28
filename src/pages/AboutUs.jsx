@@ -2,7 +2,7 @@ import React from 'react'
 import HeroInner from '../features/Hero/HeroInner'
 import OurHistory from '../features/About/OurHistory'
 import Vision from '../features/About/Vision'
-import Team from '../features/Team/Team'
+// import Team from '../features/Team/Team'
 import PastorMessage from '../features/About/PastorMessage'
 
 function AboutUsPage() {
@@ -15,7 +15,7 @@ function AboutUsPage() {
      <OurHistory/>
      <Vision/>
      <PastorMessage/>
-     <Team/>
+     {/* <Team/> */}
     </>
   )
 }

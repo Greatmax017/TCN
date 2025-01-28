@@ -39,7 +39,7 @@ function HeroInner({ image, subtitle, title }) {
       bgSize="cover"
       bgRepeat="no-repeat"
       bgPos="center"
-      bgAttachment="fixed"
+      bgAttachment={["static", "static", "fixed", "fixed"]}
       position="relative"
       _before={{
         content: "''",
@@ -47,7 +47,7 @@ function HeroInner({ image, subtitle, title }) {
         w: "full",
         h: "full",
         inset: 0,
-        bgColor: "rgba(0,0,0,0.6)",
+        bgColor: "rgba(0,0,0,0.5)",
         zIndex: 1
       }}
 

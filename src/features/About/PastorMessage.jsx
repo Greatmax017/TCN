@@ -89,7 +89,7 @@ function PastorMessage() {
                     >
                         <MiniHeading
                             miniTitle="Pastor's Message"
-                            title="Words of Hope and Faith from Our Pastor"
+                            title="Words of Hope and Faith from Our Senior Pastor"
                         />
 
                         <VStack
@@ -138,7 +138,7 @@ function PastorMessage() {
                                 lineHeight="25px"
                                 textTransform="uppercase"
                             >
-                               Senior Pastor
+                               Senior Pastor, TCN
                             </Heading>
 
                         </VStack>

@@ -1,0 +1,17 @@
+export const galleryData = [
+    "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/o6swcaebwqa3ydddfi6y",
+    "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/mwjulgua35xn54kkhu2l",
+    "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/rkxcepol3r2qv8atpk1b",
+    "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/wuejxdql17qqezltrjv9",
+    "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/kt2x3boz91tcu2sgxaez",
+    "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/hqcxszo5pksc3na7em3i",
+    "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/p9sl1aep8hsl7zvtlaoc",
+    "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/hqospdlebqej20ju2lga",
+    "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/bjs3h6os16hovxesycqh",
+    "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/u3fmmopqouii4vp9gvq1",
+    "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/g5yrxiafzocenkggjwu7",
+    "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/kwqyznrzd6dgggqkyxdo",
+    "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/fzetmsqow8rheww8nggf",
+    "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/ohaa8dpzelbeussu1gps",
+    "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/lisigt0yowyrlt0oquwv",
+]

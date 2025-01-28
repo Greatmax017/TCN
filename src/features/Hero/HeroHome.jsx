@@ -120,7 +120,7 @@ function HeroHome() {
         <SwiperSlide key={i}>
         <Box
             position="relative"
-            minH={["500px", "500px", "550px", "700px"]}
+            minH={["650px", "500px", "550px", "700px"]}
             w="full"
             display="flex"
             justifyContent="center"
@@ -171,7 +171,7 @@ function HeroHome() {
                 gap="20px"
                 zIndex={2} 
                 position="relative"
-                pt={["4rem", "2rem", "6rem"]}
+                pt={["8rem", "6rem", "6rem", "6rem"]}
             >
                 <ContainerLayout>
                         <VStack 
@@ -218,6 +218,7 @@ function HeroHome() {
                                 align="center"
                                 mt={["1rem", "1rem", "2rem"]}
                                 gap="20px"
+                                wrap={["wrap", "wrap", "wrap", "nowrap"]}
                             >
 
                                 <CtaButton

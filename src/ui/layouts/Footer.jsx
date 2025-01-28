@@ -307,7 +307,7 @@ function Footer() {
                   fontSize={16}
                   fontWeight={500}
                   lineHeight="24.59px" 
-                  color="white" 
+                  color="brand.900" 
                   textAlign="center"
                 >
                 Powered by TCN Toronto
@@ -317,7 +317,7 @@ function Footer() {
                   fontSize={16}
                   fontWeight={500}
                   lineHeight="24.59px" 
-                  color="white" 
+                  color="brand.900" 
                   textAlign="center"
               >
                 &copy; {new Date().getFullYear()} TCN Toronto | All Rights Reserved

@@ -140,7 +140,7 @@ function EventSection() {
                      justify="center"
                      align="center"
                      minH="500px"
-                     bgImage="https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/x0ateygjyosmkacg6moj"
+                     bgImage="https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/lfyjnczx2z3uktzzoktw"
                      bgSize="cover"
                      bgRepeat="no-repeat"
                      bgPos="center"
@@ -156,7 +156,7 @@ function EventSection() {
                        w: "full",
                        h: "full",
                        inset: 0,
-                       bgColor: "rgba(0,0,0,0.5)",
+                       bgColor: "rgba(0,0,0,0.3)",
                        zIndex: 1
                      }}
                     />

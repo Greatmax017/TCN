@@ -95,14 +95,15 @@ function AboutSection() {
                      overflow="hidden"
                      roundedBottomRight="60px"
                      position="absolute"
-                     top={["20%", "20%", "20%", "70%"]}
-                     left="60px"
+                     top={["40%", "20%", "20%", "70%"]}
+                     left={["40px", "40px", "40px", "60px"]}
                      bg="white"
                      p="10px"
                      data-aos="slide-up"
                      data-aos-duration="1000"
                      boxShadow="0 0 8px rgba(0,0,0,0.5)"
                      zIndex={40}
+                     display={["none", "none", "none", "flex"]}
                     >
                     <Image
                         w="full"

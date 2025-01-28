@@ -156,15 +156,17 @@ function SermonCard({ title, image, date, content, author }) {
                 <Link to={`/sermons/sermon-detail/${encodeURIComponent(title)}`}>
                     <Button
                         variant="link"
-                        bgColor="transparent"
-                        color="alt.200"
+                        bgColor="brand.100"
+                        color="white"
                         fontSize={16}
                         fontWeight={500}
                         rounded="10px"
+                        py="12px"
+                        px="20px"
                         rightIcon={<Icon as={FaArrowRightLong} size="24px"/>}
                         transition="all 0.3s ease-in-out"
                         _groupHover={{
-                            bgColor: "white",
+                            bgColor: "alt.600",
                             color: "brand.100",
                             textDecoration: "none",
                             mx: "10px"

@@ -135,7 +135,7 @@ function VisionDetail({ vision }) {
                         justify="center"
                         align="center"
                         minH="500px"
-                        bgImage="https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/zj8skbgjftkzyot8eyau"
+                        bgImage="https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/u3fmmopqouii4vp9gvq1"
                         bgSize="cover"
                         bgRepeat="no-repeat"
                         bgPos="center"
