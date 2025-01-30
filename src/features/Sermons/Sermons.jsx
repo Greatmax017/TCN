@@ -1,30 +1,9 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import {
-  Box,
-  Flex,
-  Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  Image,
-  IconButton,
-  Drawer,
-  DrawerBody,
-  DrawerHeader,
-  DrawerOverlay,
-  DrawerContent,
-  DrawerCloseButton,
   VStack,
-  useDisclosure,
-  Text,
-  HStack,
   useBreakpointValue,
   SimpleGrid,
-  Icon,
-  Heading,
   Stack,
-  Link,
 } from "@chakra-ui/react";
 import ContainerLayout from "../../ui/layouts/ContainerLayout";
 import MiniHeading from "../../ui/MiniHeading";

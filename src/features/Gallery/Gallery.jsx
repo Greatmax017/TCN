@@ -1,35 +1,15 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import {
-  Box,
   Flex,
   Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
   Image,
   IconButton,
-  Drawer,
-  DrawerBody,
-  DrawerHeader,
-  DrawerOverlay,
-  DrawerContent,
-  DrawerCloseButton,
   VStack,
-  useDisclosure,
-  Text,
-  HStack,
-  useBreakpointValue,
-  SimpleGrid,
   Icon,
-  Heading,
   Stack,
-  Center,
-  Spinner,
 } from "@chakra-ui/react";
 import ContainerLayout from "../../ui/layouts/ContainerLayout";
 import MiniHeading from "../../ui/MiniHeading";
-import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { galleryData } from "../../data/GalleryData";
 import GalleryModal from "./GalleryModal";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
@@ -53,8 +33,7 @@ function Gallery() {
 
   const handleOpen = (index) => {
     setOpenModal(true);
-    setSelectedImage(index);
-
+    setSelectedImage(galleryData[index]);
   }
 
   const handleClose = () => {
@@ -137,6 +116,7 @@ function Gallery() {
                                 position="relative"
                                 data-aos="zoom-in"
                                 data-aos-duration="1000"
+                                onClick={() => handleOpen(i)}
                               >
                                 <Image 
                                   src={image} 
@@ -148,34 +128,36 @@ function Gallery() {
                                 />
 
                                 <VStack
-                                 display="none"
-                                 w="full"
-                                 h="full"
-                                 justify="center"
-                                 align="center"
-                                 position="absolute"
-                                 inset={0}
-                                 bgColor="rgba(0,0,0,0.5)"
-                                 _groupHover={{
-                                  display: "flex",
-                                 }}
-                                 onClick={() => handleOpen(i)}
-                                >
+                                    opacity={0}
+                                    visibility="hidden"
+                                    w="full"
+                                    h="full"
+                                    justify="center"
+                                    align="center"
+                                    position="absolute"
+                                    inset={0}
+                                    bgColor="rgba(0,0,0,0.5)"
+                                    transition="opacity 0.3s ease, visibility 0.3s ease"
+                                    _groupHover={{
+                                        opacity: 1,
+                                        visibility: "visible",
+                                    }}
+                                  >
                                   <Button
-                                      bgColor="white"
-                                      color="brand.100"
-                                      border="1px solid"
-                                      borderColor="brand.100"
-                                      rounded="full"
-                                      _hover={{
-                                          bgColor: "brand.100",
-                                          color: "white"
-                                      }}
+                                    bgColor="white"
+                                    color="brand.100"
+                                    border="1px solid"
+                                    borderColor="brand.100"
+                                    rounded="full"
+                                    _hover={{
+                                      bgColor: "brand.100",
+                                      color: "white",
+                                    }}
                                   >
                                     View
                                   </Button>
-
                                 </VStack>
+
 
                               </VStack>
 
@@ -230,7 +212,6 @@ function Gallery() {
         <GalleryModal
           handleOpen={openModal}
           handleClose={handleClose}
-          images={galleryData}
           selectedImage={selectedImage}
         />
     </Stack>

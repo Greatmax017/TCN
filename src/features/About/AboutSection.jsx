@@ -1,25 +1,10 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import {
   Box,
-  Flex,
-  Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
   Image,
-  IconButton,
-  Drawer,
-  DrawerBody,
-  DrawerHeader,
-  DrawerOverlay,
-  DrawerContent,
-  DrawerCloseButton,
   VStack,
-  useDisclosure,
   Text,
   HStack,
-  useBreakpointValue,
   SimpleGrid,
   Icon,
   Heading,
@@ -28,8 +13,6 @@ import {
 import ContainerLayout from "../../ui/layouts/ContainerLayout";
 import MiniHeading from "../../ui/MiniHeading";
 import { IoIosCheckmarkCircle } from "react-icons/io";
-import { Link } from "react-router-dom";
-import { FaArrowRightLong } from "react-icons/fa6";
 import { benefits } from "../../data/AboutData";
 import CtaButton from "../../ui/CtaButton";
 

@@ -1,26 +1,11 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 import {
   Box,
   Flex,
-  Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  Image,
   IconButton,
-  Drawer,
-  DrawerBody,
-  DrawerHeader,
-  DrawerOverlay,
-  DrawerContent,
-  DrawerCloseButton,
   VStack,
-  useDisclosure,
   Text,
   HStack,
-  useBreakpointValue,
-  SimpleGrid,
   Icon,
   Heading,
   Stack,
@@ -34,7 +19,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import { Autoplay, Parallax, Pagination, Navigation } from 'swiper/modules';
-import { Link } from "react-router-dom";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import Navbar from "../../ui/layouts/Navbar";
 import CtaButton from "../../ui/CtaButton";

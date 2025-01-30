@@ -1,6 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import {
-  Box,
   Input,
   Textarea,
   Button,
@@ -8,29 +7,9 @@ import {
   FormLabel,
   Select,
   FormErrorMessage,
-  Flex,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  Image,
-  IconButton,
-  Drawer,
-  DrawerBody,
-  DrawerHeader,
-  DrawerOverlay,
-  DrawerContent,
-  DrawerCloseButton,
   VStack,
-  useDisclosure,
-  Text,
-  HStack,
-  useBreakpointValue,
   SimpleGrid,
   Icon,
-  Heading,
-  Stack,
-  Link,
 } from "@chakra-ui/react";
 import { useForm } from "react-hook-form";
 import { FaArrowRightLong } from "react-icons/fa6";

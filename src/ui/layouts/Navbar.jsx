@@ -1,17 +1,9 @@
 import React, { useEffect, useState } from "react";
 import {
   Box,
-  Flex,
-  Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
   Image,
-  IconButton,
   Drawer,
   DrawerBody,
-  DrawerHeader,
   DrawerOverlay,
   DrawerContent,
   DrawerCloseButton,
@@ -20,15 +12,11 @@ import {
   Text,
   HStack,
   useBreakpointValue,
-  SimpleGrid,
   Icon,
-  Heading,
 } from "@chakra-ui/react";
 import { useLocation, Link, NavLink } from "react-router-dom";
 import ContainerLayout from "./ContainerLayout";
-import { contactDetails, NavbarData, socialsLinks } from "../../data/NavbarData";
-import { FaArrowRightLong } from "react-icons/fa6";
-import { TfiHeadphoneAlt } from "react-icons/tfi";
+import { NavbarData } from "../../data/NavbarData";
 import { IoMenu } from "react-icons/io5";
 import CtaButton from "../CtaButton";
 

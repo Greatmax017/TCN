@@ -1,29 +1,12 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import {
-  Box,
-  Flex,
   Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
   Image,
-  IconButton,
-  Drawer,
-  DrawerBody,
-  DrawerHeader,
-  DrawerOverlay,
-  DrawerContent,
-  DrawerCloseButton,
   VStack,
-  useDisclosure,
   Text,
   HStack,
-  useBreakpointValue,
-  SimpleGrid,
   Icon,
   Heading,
-  Stack,
 } from "@chakra-ui/react";
 import { FaArrowRightLong, FaRegCalendar } from "react-icons/fa6";
 import { IoTimerOutline } from "react-icons/io5";

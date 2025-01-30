@@ -1,19 +1,14 @@
 import React from "react";
 import {
-  Box,
-  Flex,
   Button,
-  Image,
   IconButton,
   VStack,
   Text,
   HStack,
   Heading,
-  Link,
   Icon,
 } from "@chakra-ui/react";
-import { FaArrowRightLong, FaRegCalendar } from "react-icons/fa6";
-import { IoTimerOutline } from "react-icons/io5";
+import { FaRegCalendar } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
 import { convertTo12HourFormat, createGoogleCalendarLink } from "../../util/helper";
 
