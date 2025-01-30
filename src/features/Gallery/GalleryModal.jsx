@@ -18,7 +18,7 @@ function GalleryModal({ handleOpen, handleClose, selectedImage }) {
     <Drawer
         isOpen={handleOpen}
         placement="bottom"
-        size="full"
+        size="md"
         closeOnOverlayClick={false} 
 >
     <DrawerOverlay
@@ -28,7 +28,7 @@ function GalleryModal({ handleOpen, handleClose, selectedImage }) {
         }}
     />
     <DrawerContent bg="transparent" shadow="none">
-        <DrawerBody bg="transparent" p={["0", "0", "20px"]} scrollPadding={0}>
+        <DrawerBody bg="transparent" p={["0", "0", "20px"]}>
             <VStack
                 w="full"
                 justify="start"
@@ -36,6 +36,7 @@ function GalleryModal({ handleOpen, handleClose, selectedImage }) {
                 bg="white"
                 roundedTop="36px"
                 minH={["600px", "600px", "800px"]}
+                h={["600px", "600px", "full"]}
                 py={["30px", "30px", "60px"]}
                 px="40px"
                 gap="20px"
@@ -85,6 +86,7 @@ function GalleryModal({ handleOpen, handleClose, selectedImage }) {
 
                         <VStack
                             w="full"
+                            h="full"
                             justify="center"
                             align="center"
                         >
