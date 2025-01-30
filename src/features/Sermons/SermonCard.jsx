@@ -49,7 +49,7 @@ function SermonCard({ title, image, date, content, author }) {
     <VStack
         w="full"
         justify="space-between"
-        align="start"
+        align="stretch"
         minH="432px"
         bgColor="white"
         overflow="hidden"

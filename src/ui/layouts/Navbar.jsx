@@ -190,13 +190,14 @@ function Navbar() {
                 <DrawerOverlay />
                 <DrawerContent>
                     <DrawerCloseButton />
-                    <DrawerBody>
+                    <DrawerBody bgColor="white">
                         <VStack 
                             mt="40px" 
                             w="full" 
                             gap="25px" 
                             justify="start" 
                             align="start"
+                            bgColor="white"
                         >
                             {NavbarData.map((item) => ((
                                 <NavLink key={item.id} to={item.path}>

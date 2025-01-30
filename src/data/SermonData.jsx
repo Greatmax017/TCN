@@ -21,7 +21,7 @@ export const sermonsData = [
     date: "2025-01-29",
   },
   {
-    image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/w0kmujilvqbbdjodnosk",
+    image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/o6swcaebwqa3ydddfi6y",
     title: "Embracing the Next Phase in Christ",
     author: "Pastor 'Poju Oyemade",
     content: "Discover how to navigate new seasons in your walk with Christ with confidence and purpose.",
@@ -35,7 +35,7 @@ export const sermonsData = [
     date: "2025-01-29",
   },
   {
-    image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/w0kmujilvqbbdjodnosk",
+    image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/hqcxszo5pksc3na7em3i",
     title: "The Word as a Firm Foundation",
     author: "Guest Speaker: Rev. Jane Smith",
     content: "Understand the importance of grounding your life on the truth of God's Word.",

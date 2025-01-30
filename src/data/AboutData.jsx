@@ -101,13 +101,13 @@ export const visionAndMission = [
       title: "Our Vision",
       content: "Teaching Christians Their Identity in Christ",
       description: "The vision of Insights for Living is to teach Christians who they are in Christ Jesus, and how to live a victorious life in their covenant rights and privileges.",
-      image: "",
+      image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/u3fmmopqouii4vp9gvq1",
     },
     {
       title: "Our Mission",
       content: "Empowering Lives Through the Word of God",
       description: "Our mission is to provide a nurturing environment where individuals can deepen their relationship with Christ, discover their purpose, and experience the transformative power of the Word. Through impactful teachings, community engagement, and dedicated outreach, we aim to equip believers to live out their faith boldly and share the love of Christ with others.",
-      image: "",
+      image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/a7mgjkqvf8wseaqp7ly6",
       details: [
         "The fulfillment of that mission takes place when those believers become rooted and grounded enough in God’s word to reach out and teach others these same principles.",
         "We are called to lead people, primarily born-again believers, to the place where they operate proficiently in biblical principles of faith, love, healing, prosperity, redemption, and righteousness, and to the place where they can share those principles with others.",

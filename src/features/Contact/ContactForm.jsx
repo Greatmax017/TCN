@@ -140,6 +140,8 @@ function ContactForm() {
         px="25px"
         rounded="20px"
         boxShadow="0 0 8px rgba(0,0,0,0.3)"
+        border="2px solid"
+        borderColor="brand.100"
     >
              <form
                   onSubmit={handleSubmit(handleSendContactForm)} 
