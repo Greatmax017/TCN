@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 
 
 
-function SermonCard({ title, image, date, content, author }) {
+function SermonCard({ title, image, date, content, author, externalUrl }) {
 
  
   const sermonDetail = [
@@ -107,17 +107,19 @@ function SermonCard({ title, image, date, content, author }) {
              align="start"
              gap="10px"
             >
-                <Heading
-                 fontSize={20}
-                 fontWeight={700}
-                 color="alt.200"
-                 lineHeight="28px"
-                 _groupHover={{
-                    color: "brand.100",
-                 }}
-                >
-                    {title}
-                </Heading>
+                <Link target="_blank" to={externalUrl}>
+                    <Heading
+                        fontSize={20}
+                        fontWeight={700}
+                        color="alt.200"
+                        lineHeight="28px"
+                        _groupHover={{
+                            color: "brand.100",
+                        }}
+                    >
+                        {title}
+                    </Heading>
+                </Link>
 
                 <Text
                     fontSize={16}
@@ -136,7 +138,7 @@ function SermonCard({ title, image, date, content, author }) {
              justify="start"
              align="start"
             >
-                <Link to={`/sermons/sermon-detail/${encodeURIComponent(title)}`}>
+                <Link target="_blank" to={externalUrl}>
                     <Button
                         variant="link"
                         bgColor="brand.100"

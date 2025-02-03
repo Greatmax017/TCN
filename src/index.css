@@ -8,3 +8,40 @@
   img {
     pointer-events: none;
   }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+  }
+  .page-link, .previous, .next {
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .pagination .previous, .pagination .next {
+    background: #000 !important;
+    color: white !important;
+  }
+
+  .pagination .previous .disabled, .pagination .next .disabled {
+    background: #e0dede !important;
+    color: #000 !important;
+    cursor: not-allowed !important;
+  }
+
+  .pagination .previous:hover, .pagination .next:hover {
+    background: #d77114 !important;
+    color: white !important;
+  }
+
+  .pagination .active {
+    background-color: #d77114 !important;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+  }

@@ -119,8 +119,6 @@ function ContactForm() {
         px="25px"
         rounded="20px"
         boxShadow="0 0 8px rgba(0,0,0,0.3)"
-        border="2px solid"
-        borderColor="brand.100"
     >
              <form
                   onSubmit={handleSubmit(handleSendContactForm)} 
@@ -151,8 +149,10 @@ function ContactForm() {
                           placeholder={input.placeholder}
                           type={input.type}
                           h={{ base: "45px", lg: "55px" }}
+                          border="2px solid"
+                          borderColor="brand.600"
                           rounded="full"
-                          _focus={{ boxShadow: "none", borderColor: "brand.700" }}
+                          _focus={{ boxShadow: "none", borderColor: "brand.100", border: "2px solid" }}
                           {...register(input.name, input.validation)}
                         />
                       )}
@@ -162,7 +162,9 @@ function ContactForm() {
                           fontSize={{ base: "16px", lg: "18px" }}
                           rounded="full"
                           h={{ base: "45px", lg: "55px" }}
-                          _focus={{ boxShadow: "none", borderColor: "brand.700" }}
+                          border="2px solid"
+                          borderColor="brand.600"
+                          _focus={{ boxShadow: "none", borderColor: "brand.100", border: "2px solid" }}
                           {...register(input.name, input.validation)}
                         >
                           {input.options.map((option, idx) => (
@@ -178,7 +180,11 @@ function ContactForm() {
                         <Textarea
                           placeholder={input.placeholder}
                           rows={8}
-                          rounded="30px" 
+                          rounded="30px"
+                          border="2px solid"
+                          // borderColor="brand.600"
+                          _focus={{ boxShadow: "none", borderColor: "brand.100", border: "2px solid" }} 
+                          focusBorderColor="brand.100"
                           {...register(input.name, input.validation)}
                         />
                       )}
