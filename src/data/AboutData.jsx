@@ -62,7 +62,7 @@ export const WorshipData = [
     {
         title: "Youth Section",
         content: "Empowering the next generation with a strong foundation in Christ through vibrant worship, engaging teachings, and community activities designed for growth and purpose.",
-        image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/h6cswo5x7cqmghbewuwl",
+        image: "https://res.cloudinary.com/drthrun7f/image/upload/v1738705794/awpa1io1cb2fzzecp5if.jpg",
     },
 
     {
