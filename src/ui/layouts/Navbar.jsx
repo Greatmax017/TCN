@@ -90,8 +90,8 @@ function Navbar() {
                         justify="start" 
                         align="center"
                     >
-                        {NavbarData.map((item) => ((
-                                <NavLink key={item.id} to={item.path}>
+                        {NavbarData.map((item, i) => ((
+                                <NavLink key={i} to={item.path}>
                                     <Text
                                         fontSize={16}
                                         fontWeight={400}

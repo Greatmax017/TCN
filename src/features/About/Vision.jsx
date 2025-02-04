@@ -52,6 +52,7 @@ function Vision() {
                 >
                     {visionStatements.map((category, i) => (
                         <Button
+                            key={i}
                          w="full"
                          rounded="full"
                          bgColor={selectedTab === category ? "brand.100" : "transparent"}

@@ -22,6 +22,7 @@ function Gallery() {
 
 
   const slides = images.map(({ original, width, height }) => ({
+    key: original,
     src: original,
     width: "100%",
     height: "100%",

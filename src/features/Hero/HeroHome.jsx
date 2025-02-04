@@ -158,9 +158,7 @@ function HeroHome() {
                       {slider.content}
                     </Heading>
 
-                    <Text fontSize={[16, 16, 18]} fontWeight={500} color="brand.700" textAlign="center">
-                      {slider.detail}
-                    </Text>
+                    
 
                     <HStack
                       w="full"
