@@ -73,5 +73,21 @@ export const images = [
       height: 230,
       caption: "TCN Toronto Moments 8",
     },
+    {
+      src: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/lm3vxk0xle7evf7r3mhw",
+      original: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/lm3vxk0xle7evf7r3mhw",
+      width: 310,
+      height: 200,
+      caption: "TCN Toronto Moments 9",
+    },
+
+    {
+      src: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/of4qnybuc2xwpt4sjpnc",
+      original: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/of4qnybuc2xwpt4sjpnc",
+      width: 290,
+      height: 200,
+      caption: "TCN Toronto Moments 10",
+    },
+    
   ];
   

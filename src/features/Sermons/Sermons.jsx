@@ -61,7 +61,7 @@ function Sermons() {
                                 gap="40px"
                                 py="2rem"
                             >
-                                {[...Array(6)].map((item) => (
+                                {[...Array(3)].map((item) => (
                                     <SermonCardLoader
                                      key={item}
                                     />

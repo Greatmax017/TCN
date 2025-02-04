@@ -54,11 +54,12 @@ function Gallery() {
                 />
 
 
-                  <div style={{ width: "100%" }}>
+                  <div style={{ width: "100%", cursor: "pointer" }}>
                         <GridGallery
                             images={images}
                             onClick={handleClick}
-                            enableImageSelection={false}
+                            enableImageSelection={true}
+                            
                         />
                         <Lightbox
                             slides={slides}

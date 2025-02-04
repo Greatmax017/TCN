@@ -182,7 +182,8 @@ function Footer() {
                 {servicesLinks.map((service, i) => (
                   <Link
                     key={i}
-                    to={`/services/service-detail/${encodeURIComponent(service)}`}
+                    // to={`/services/service-detail/${encodeURIComponent(service)}`}
+                    to="/"
                   >
                     <Text
                       fontSize={16}
