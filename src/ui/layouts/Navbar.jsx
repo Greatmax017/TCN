@@ -13,12 +13,14 @@ import {
   HStack,
   useBreakpointValue,
   Icon,
+  useToast,
 } from "@chakra-ui/react";
 import { useLocation, Link, NavLink } from "react-router-dom";
 import ContainerLayout from "./ContainerLayout";
 import { NavbarData } from "../../data/NavbarData";
 import { IoMenu } from "react-icons/io5";
 import CtaButton from "../CtaButton";
+import ModalDialog from "../ModalDialog";
 
 
 
@@ -31,6 +33,7 @@ function Navbar() {
 
 
     const [isScrolled, setIsScrolled] = useState(false);
+    const [isGiving, setIsGiving] = useState(false);
 
     useEffect(() => {
       const handleScroll = () => {
@@ -43,6 +46,38 @@ function Navbar() {
         window.removeEventListener("scroll", handleScroll);
       };
     }, []);
+
+    const toast = useToast();
+
+    const handleCopyToClipboard = (content, title) => {
+      navigator.clipboard.writeText(content).then(() => {
+        toast({
+          title: "Copied to clipboard",
+          description: `${title} content has been copied.`,
+          status: "info",
+          duration: 2000,
+          isClosable: true,
+          position: "bottom-right"
+        });
+      });
+    };
+
+
+
+    const givingData = [
+        {
+            title: "Interac e-Transfer",
+            content: "giving@thecovenantnation.ca",
+            handleCopy: handleCopyToClipboard
+        },
+
+        {
+            title: "Paypal",
+            content: "toronto@thecovenantnation.ca",
+            handleCopy: handleCopyToClipboard
+        },
+    ]
+    
 
 
   return (
@@ -110,7 +145,8 @@ function Navbar() {
                 <CtaButton
                     url="/contact-us"
                     type="primary"
-                    content="Worship With Us"
+                    content="Support the Mission"
+                    handleClick={() => setIsGiving(true)}
                 />
 
          </HStack>
@@ -206,7 +242,8 @@ function Navbar() {
                         <CtaButton
                             url="/contact-us"
                             type="primary"
-                            content="Worship With Us"
+                            content="Support the Mission"
+                            handleClick={() => setIsGiving(true)}
                         />
 
 
@@ -220,6 +257,15 @@ function Navbar() {
 
     }
     
+    <ModalDialog
+     isDialog={isGiving}
+     dialogTitle="To Support the Mission"
+     dialogBody="Give and part of what God is doing"
+     closeDialog={() => setIsGiving(false)}
+     handleConfirm={() =>  setIsGiving(false)}
+     confirmText="Cancel"
+     dialogData={givingData}
+    />
     
     </>
   )
