@@ -145,7 +145,7 @@ function Navbar() {
                 <CtaButton
                     url="/contact-us"
                     type="primary"
-                    content="Support the Mission"
+                    content="Giving"
                     handleClick={() => setIsGiving(true)}
                 />
 
@@ -259,11 +259,11 @@ function Navbar() {
     
     <ModalDialog
      isDialog={isGiving}
-     dialogTitle="To Support the Mission"
-     dialogBody="Give and part of what God is doing"
+    
+     
      closeDialog={() => setIsGiving(false)}
      handleConfirm={() =>  setIsGiving(false)}
-     confirmText="Cancel"
+     confirmText="Done"
      dialogData={givingData}
     />
     
