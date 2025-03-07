@@ -1,5 +1,15 @@
 import React, { useRef } from "react";
-import { Box, Flex, IconButton, VStack, Text, HStack, Icon, Heading, Stack } from "@chakra-ui/react";
+import {
+  Box,
+  Flex,
+  IconButton,
+  VStack,
+  Text,
+  HStack,
+  Icon,
+  Heading,
+  Stack,
+} from "@chakra-ui/react";
 import ContainerLayout from "../../ui/layouts/ContainerLayout";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -15,19 +25,21 @@ import CtaButton from "../../ui/CtaButton";
 
 const sliders = [
   {
-    title: "Welcome to The Covenation Nation (TCN) Church",
-    content: "A Church Without Walls, Transforming Lives Through Christ.",
+    title: "Welcome to The Covenation Nation (TCN)",
+    content: "We are a faith-driven, prayer-centered, community-focused, and love-based church.",
     detail:
       "Since 1994, The Covenant Nation has been dedicated to fostering a personal relationship with Christ, teaching practical insights to grow in faith, and making a difference in the world.",
-    image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/mwjulgua35xn54kkhu2l",
+    image:
+      "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/mwjulgua35xn54kkhu2l",
   },
 
   {
     title: "Discover a Deeper Connection",
     content: "Communion with Christ Through the Word.",
     detail:
-      "At TCN Church, we place strong emphasis on engaging with the Bible, gaining practical insights to thrive in daily life, and sharing the transformative love of Christ with others.",
-    image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/g5yrxiafzocenkggjwu7",
+      "At TCN, we place strong emphasis on engaging with the Bible, gaining practical insights to thrive in daily life, and sharing the transformative love of Christ with others.",
+    image:
+      "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/g5yrxiafzocenkggjwu7",
   },
 
   {
@@ -35,11 +47,13 @@ const sliders = [
     content: "Experience Faith, Community, and Purpose.",
     detail:
       "Be part of a growing family where lives are transformed through inspiring worship, impactful teachings, and meaningful connections. Together, let’s make an eternal impact.",
-    image: "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/kwqyznrzd6dgggqkyxdo",
+    image:
+      "https://res.cloudinary.com/doqvfemo3/image/upload/f_auto,q_auto/v1/TCN/kwqyznrzd6dgggqkyxdo",
   },
 ];
 
 function HeroHome() {
+
   const prevRef = useRef(null);
   const nextRef = useRef(null);
 
@@ -116,7 +130,14 @@ function HeroHome() {
                 zIndex={-2}
               />
 
-              <Box position="absolute" inset={0} w="full" h="full" bgColor="rgba(0,0,0,0.5)" zIndex={-2} />
+              <Box
+                position="absolute"
+                inset={0}
+                w="full"
+                h="full"
+                bgColor="rgba(0,0,0,0.5)"
+                zIndex={-2}
+              />
 
               {/* Content */}
               <VStack
@@ -130,7 +151,7 @@ function HeroHome() {
               >
                 <ContainerLayout>
                   <VStack
-                    w={["full", "full", "full", "60%"]}
+                    w={["full", "full", "full", "70%"]}
                     mx={["initial", "initial", "auto"]}
                     justify="center"
                     align="center"
@@ -158,9 +179,14 @@ function HeroHome() {
                       {slider.content}
                     </Heading>
 
-                    <Text fontSize={[16, 16, 18]} fontWeight={500} color="brand.700" textAlign="center">
+                    {/* <Text
+                      fontSize={[16, 16, 18]}
+                      fontWeight={500}
+                      color="brand.700"
+                      textAlign="center"
+                    >
                       {slider.detail}
-                    </Text>
+                    </Text> */}
 
                     <HStack
                       w="full"
@@ -172,7 +198,11 @@ function HeroHome() {
                     >
                       {/* <CtaButton url="/contact-us" type="secondary" content="Join Us This Sunday" /> */}
 
-                      <CtaButton url="/sermons" type="primary" content="Get Connected" />
+                      <CtaButton
+                        url="/sermons"
+                        type="primary"
+                        content="Get Connected"
+                      />
                     </HStack>
                   </VStack>
                 </ContainerLayout>
