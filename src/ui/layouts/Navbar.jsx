@@ -259,8 +259,8 @@ function Navbar() {
     
     <ModalDialog
      isDialog={isGiving}
-    
-     
+     dialogTitle="To Support the Mission"
+     dialogBody="Give and be part of what God is doing"
      closeDialog={() => setIsGiving(false)}
      handleConfirm={() =>  setIsGiving(false)}
      confirmText="Done"

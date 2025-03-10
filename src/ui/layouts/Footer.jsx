@@ -182,8 +182,8 @@ function Footer() {
                 {servicesLinks.map((service, i) => (
                   <Link
                     key={i}
-                    // to={`/services/service-detail/${encodeURIComponent(service)}`}
-                    to="/"
+                    target="_blank"
+                    to={service.path}
                   >
                     <Text
                       fontSize={16}
@@ -194,7 +194,7 @@ function Footer() {
                           color: "brand.100"
                       }}
                     >
-                      {service}
+                      {service.display}
                     </Text>
                   
                   </Link>

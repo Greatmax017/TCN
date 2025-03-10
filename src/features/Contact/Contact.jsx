@@ -1,5 +1,14 @@
 import React from "react";
-import { Box, VStack, Text, HStack, SimpleGrid, Icon, Stack, Link } from "@chakra-ui/react";
+import {
+  Box,
+  VStack,
+  Text,
+  HStack,
+  SimpleGrid,
+  Icon,
+  Stack,
+  Link,
+} from "@chakra-ui/react";
 import ContainerLayout from "../../ui/layouts/ContainerLayout";
 import MiniHeading from "../../ui/MiniHeading";
 import { contactLinks } from "../../data/ContactData";
@@ -10,18 +19,44 @@ function Contact() {
   return (
     <Stack w="full" justify="start" align="start" bgColor="brand.500">
       <ContainerLayout>
-        <SimpleGrid w="full" columns={[1, 1, 1, 12]} gap="40px" py={["2rem", "2rem", "4rem"]}>
-          <VStack w="full" justify="start" align="start" gridColumn={["span 1", "span 1", "span 1", "span 5"]} gap="40px">
+        <SimpleGrid
+          w="full"
+          columns={[1, 1, 1, 12]}
+          gap="40px"
+          py={["2rem", "2rem", "4rem"]}
+        >
+          <VStack
+            w="full"
+            justify="start"
+            align="start"
+            gridColumn={["span 1", "span 1", "span 1", "span 5"]}
+            gap="40px"
+          >
             <VStack w="full" justify="start" align="start" gap="10px">
-              <MiniHeading miniTitle="Get In Touch" title="Reach Out to Our Church Support" />
-              <Text fontSize={16} fontWeight={400} color="brand.900" lineHeight="25px">
+              <MiniHeading
+                miniTitle="Get In Touch"
+                title="Reach Out to Our Church Support"
+              />
+              <Text
+                fontSize={16}
+                fontWeight={400}
+                color="brand.900"
+                lineHeight="25px"
+              >
                 We’re always ready to help your from you.
               </Text>
             </VStack>
 
             <VStack w="full" justify="start" align="start" gap="30px">
               {contactLinks.map((item, i) => (
-                <HStack key={i} w="full" justify="start" align="start" gap="20px" wrap={["wrap", "wrap", "nowrap"]}>
+                <HStack
+                  key={i}
+                  w="full"
+                  justify="start"
+                  align="start"
+                  gap="20px"
+                  wrap={["wrap", "wrap", "nowrap"]}
+                >
                   <Link
                     href={item.path}
                     _hover={{
@@ -57,7 +92,12 @@ function Contact() {
                   </Link>
 
                   <VStack w="full" justify="start" align="start" gap="6px">
-                    <Text fontSize={[18, 18, 20]} fontWeight={700} lineHeight="24.59px" color="brand.300">
+                    <Text
+                      fontSize={[18, 18, 20]}
+                      fontWeight={700}
+                      lineHeight="24.59px"
+                      color="brand.300"
+                    >
                       {item.display}
                     </Text>
 
@@ -66,7 +106,11 @@ function Contact() {
                       fontWeight={400}
                       lineHeight="24.59px"
                       color="brand.900"
-                      whiteSpace={item.display.includes("Business") ? "pre-wrap" : "initial"}
+                      whiteSpace={
+                        item.display.includes("Service Hours")
+                          ? "pre-wrap"
+                          : "initial"
+                      }
                     >
                       {item.content}
                     </Text>
@@ -76,7 +120,12 @@ function Contact() {
             </VStack>
           </VStack>
 
-          <VStack w="full" justify="start" align="start" gridColumn={["span 1", "span 1", "span 1", "span 7"]}>
+          <VStack
+            w="full"
+            justify="start"
+            align="start"
+            gridColumn={["span 1", "span 1", "span 1", "span 7"]}
+          >
             <ContactForm />
           </VStack>
         </SimpleGrid>
