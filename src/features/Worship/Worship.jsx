@@ -64,6 +64,7 @@ function Worship() {
                      roundedBottomRight="80px"
                      data-aos="slide-right"
                      data-aos-duration="1000"
+                     data-aos-once="true"
                      p="20px"
                      _before={{
                        content: "''",
@@ -134,8 +135,6 @@ function Worship() {
                              minH="200px"
                              roundedBottomRight="80px"
                              zIndex={4}
-                             data-aos="zoom-in"
-                             data-aos-duration="1000"
                              bgImage={item?.image}
                              bgSize="cover"
                              bgRepeat="no-repeat"
@@ -143,6 +142,7 @@ function Worship() {
                              position="relative"
                              overflow="hidden"
                              cursor="pointer"
+                             transition="border 0.1s ease-in-out"
                              _before={{
                                content: "''",
                                position: "absolute",
@@ -153,6 +153,12 @@ function Worship() {
                                zIndex: 1
                              }}
                              onClick={() => setService(item)}
+
+                             _hover={{
+                                border: "4px solid",
+                                borderColor: "brand.100"
+                             }}
+
                             >
                                 <VStack
                                     w="full"
