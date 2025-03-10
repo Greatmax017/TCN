@@ -8,7 +8,7 @@ export function useGetSermons() {
     const showId = import.meta.env.VITE_SPOTIFY_SHOW_ID;
 
   const { isPending: isLoadingSermons, data: sermons, isError, error } = useQuery({
-    queryKey: ["get-sermons", showId],
+    queryKey: ["get-sermons"],
     queryFn:   () => getPodcastEpisodes(showId),
   });
   return {

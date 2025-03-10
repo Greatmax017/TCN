@@ -125,8 +125,8 @@ function Navbar() {
                         justify="start" 
                         align="center"
                     >
-                        {NavbarData.map((item) => ((
-                                <NavLink key={item.id} to={item.path}>
+                        {NavbarData.map((item, i) => ((
+                                <NavLink key={i} to={item.path}>
                                     <Text
                                         fontSize={16}
                                         fontWeight={400}
@@ -145,7 +145,7 @@ function Navbar() {
                 <CtaButton
                     url="/contact-us"
                     type="primary"
-                    content="Support the Mission"
+                    content="Giving"
                     handleClick={() => setIsGiving(true)}
                 />
 
@@ -263,7 +263,7 @@ function Navbar() {
      dialogBody="Give and be part of what God is doing"
      closeDialog={() => setIsGiving(false)}
      handleConfirm={() =>  setIsGiving(false)}
-     confirmText="Cancel"
+     confirmText="Done"
      dialogData={givingData}
     />
     
