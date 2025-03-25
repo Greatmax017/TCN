@@ -62,9 +62,6 @@ function Worship() {
                      position="relative"
                      overflow="hidden"
                      roundedBottomRight="80px"
-                     data-aos="slide-right"
-                     data-aos-duration="1000"
-                     data-aos-once="true"
                      p="20px"
                      _before={{
                        content: "''",
